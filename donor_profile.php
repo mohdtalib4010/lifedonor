@@ -7,7 +7,8 @@ $userprofile = $_SESSION['user_name'];
 if($userprofile==true){
 
 }else{
-     echo("<script>location.href = 'https://lifedonor.000webhostapp.com/index.php';</script>");
+       header('Location: home.php');
+ 
 }
 
 $query ="SELECT * FROM data WHERE username='$userprofile'";
