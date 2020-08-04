@@ -1,0 +1,34 @@
+.container  {
+   background-image: url("pics/bg2.jpg");
+  background-color: #cccccc;
+  background-size: 100% 100%;
+  height:  800px ;
+  width: 800px;
+}
+.btn{
+    width:20% ;
+}
+
+.box{
+	width: 45%;
+}
+
+@media( max-width:459px) {
+.box {
+	width: 100%;
+
+}
+.btn {
+    width:100%;
+}
+}
+.fb {
+  background-color: #3B59;
+  color: white;
+}
+
+
+#b { 
+    color: red;
+    
+}
